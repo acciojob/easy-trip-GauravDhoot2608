@@ -108,7 +108,7 @@ public class AirportRepository {
         //else if you are able to book a ticket then return "SUCCESS"
         passengers.add(passengerId);
         flightPassengerDetails.put(flightId , passengers);
-        return "SUCCESS"
+        return "SUCCESS";
     }
 
     public String cancelATicket(Integer flightId,Integer passengerId){
